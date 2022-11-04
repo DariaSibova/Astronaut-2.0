@@ -102,3 +102,30 @@ body{
   top: 60px;
   left: 570px;
 }
+
+.star-position4{
+  top: 120px;
+  left: 900px;
+}
+.star-position5{
+  top: 20px;
+  left: 1120px;
+}
+.star-position6{
+  top: 90px;
+  left: 1280px;
+}
+.star-position7{
+  top: 30px;
+  left: 1480px;
+}
+
+.astronaut{
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  z-index: 11;
+  top: calc(50% - 150px);
+  left: calc(50% - 125px);
+  -webkit-animation: astronaut 5s linear infinite;
+}
