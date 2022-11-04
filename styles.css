@@ -76,3 +76,29 @@ body{
   left: 70px;
   opacity: .7;
 }
+
+.star:after{
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #FFF;
+  position: absolute;
+  z-index: 10;
+  top: 8px;
+  left: 170px;
+  opacity: .9;
+}
+
+.star-position1{
+  top: 30px;
+  left: 20px;
+}
+.star-position2{
+  top: 110px;
+  left: 250px;
+}
+.star-position3{
+  top: 60px;
+  left: 570px;
+}
