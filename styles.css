@@ -53,3 +53,26 @@ body{
 .box-of-star4{
   -webkit-animation: snow 5s -3.30s linear infinite;
 }
+
+.star{
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #FFF;
+  position: absolute;
+  z-index: 10;
+  opacity: .7;
+}
+
+.star:before{
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #FFF;
+  position: absolute;
+  z-index: 10;
+  top: 40px;
+  left: 70px;
+  opacity: .7;
+}
