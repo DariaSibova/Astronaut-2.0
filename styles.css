@@ -6,3 +6,27 @@ body{
   background-color: #102037;
   overflow: hidden;
 }
+
+@-webkit-keyframes snow {
+  0% { opacity: 0; transform: translateY(0px); }
+  20%{ opacity: 1;}
+  100% { opacity: 1; transform: translateY(650px); }
+}
+@-moz-keyframes snow {
+  0% { opacity: 0; transform: translateY(0px); }
+  20%{ opacity: 1;}
+  100% { opacity: 1; transform: translateY(650px); }
+}
+@keyframes snow {
+  0% { opacity: 0; transform: translateY(0px); }
+  20%{ opacity: 1;}
+  100% { opacity: 1; transform: translateY(650px); }
+}
+@-webkit-keyframes astronaut{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
