@@ -30,3 +30,26 @@ body{
     transform: rotate(360deg);
   }
 }
+
+.box-of-star1,
+.box-of-star2,
+.box-of-star3,
+.box-of-star4{
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  transform: translateY(650px);
+}
+.box-of-star1{
+  -webkit-animation: snow 5s linear infinite;
+}
+.box-of-star2{
+  -webkit-animation: snow 5s -1.64s linear infinite;
+}
+.box-of-star3{
+  -webkit-animation: snow 5s -2.30s linear infinite;
+}
+.box-of-star4{
+  -webkit-animation: snow 5s -3.30s linear infinite;
+}
